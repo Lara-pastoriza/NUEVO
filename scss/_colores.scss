@@ -1,0 +1,37 @@
+$beige:rgb(175, 114, 71);
+body{
+    background-color:rgb(211, 182, 145);
+}
+.malula{
+    background-color: rgb(175, 114, 71);
+}
+.Malula__Pasteleria{
+    font: $title-font;
+    color:$cool-purple;
+}
+ li{
+     background-color:rgb(214, 161, 165)
+ }
+li a{
+         color: rgb(77, 36, 87);
+         font-family:Arial, Helvetica, sans-serif;
+         display: flex;
+}
+p{
+    color:$cool-red;
+}
+p.parrafo{
+    color:$cool-red;
+}
+.div{
+    font-family: cursive;
+    
+}
+.centrar{
+    color:$cool-purple;
+    background:rgb(221, 191, 169);
+}
+.button-pink{
+    background: rgb(221, 191, 169);
+color: $cool-purple;
+}

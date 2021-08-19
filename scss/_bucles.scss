@@ -1,0 +1,20 @@
+@for $i from 1 through 3 {
+    .centrar-#{$i} {
+        width: $i*1%;
+    }
+}
+@each $color in $colors{
+    .button-pink#{$color} {
+        background: $color;}
+    }
+    //bucle each con mapas
+$colores:(
+    uno:rgb(127, 110, 141),
+    dos: white,
+    tres:beige,
+);
+@each $key, $value in $colores{
+    .button-#{$key}{
+        background-color: $value;
+    }
+}
